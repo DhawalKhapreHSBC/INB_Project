@@ -1,0 +1,138 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+.{
+    background-color: #0056b3;
+}
+
+.bot {
+    float: right;
+    position: sticky;
+    bottom: 31px;
+    font-weight: bolder;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+h1 {
+    text-align: center;
+}
+.customer-info {
+    margin-top: 20px;
+}
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Navigation */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    line-height: 4rem;
+    background-color: var(--black);
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav__center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav__logo {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.nav__logo span {
+    color: var(--orange);
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-right: 2rem;
+    padding: 1.3rem 1.5rem;
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+.login:focus {
+    outline: none;
+}
+
+
